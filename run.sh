@@ -1,3 +1,3 @@
 #!/bin/bash
 
-node index.js
+node --env-file=.env index.js
