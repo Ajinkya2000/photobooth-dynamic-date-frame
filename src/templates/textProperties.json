@@ -1,0 +1,38 @@
+[
+  {
+    "name": "8-CUT-date-frame-1.png",
+    "positions": [
+      {
+        "top": 1653,
+        "left": 108
+      },
+      {
+        "top": 1653,
+        "left": 690
+      }
+    ],
+    "fontSize": 96,
+    "anchor": "top",
+    "attributes": {
+      "fill": "#000000"
+    }
+  },
+  {
+    "name": "8-CUT-date-frame-2.png",
+    "positions": [
+      {
+        "top": 1653,
+        "left": 108
+      },
+      {
+        "top": 1653,
+        "left": 690
+      }
+    ],
+    "fontSize": 96,
+    "anchor": "top",
+    "attributes": {
+      "fill": "#FFFFFF"
+    }
+  }
+]
