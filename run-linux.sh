@@ -4,7 +4,9 @@ cd "$(dirname "$0")"
 
 # Load environment variables from .env in the current (dist) folder
 if [ -f .env ]; then
-    export $(grep -v '^#' .env | xargs)
+    set -a
+    source .env
+    set +a
     echo "Loaded .env variables"
 else
     echo ".env file not found in $(pwd)"

@@ -36,6 +36,8 @@ function getDateString() {
 }
 
 async function main() {
+  console.log("Starting to generate date frames");
+
   // Read from templates folder
   const templates = await readdir(TEMPLATES_PATH);
 
@@ -94,9 +96,14 @@ async function main() {
     ]);
 
     const outputPath = path.join(OUTPUT_PATH, `${template}`);
+    console.log(`Output path: ${outputPath} for template: ${template}`);
 
     await image.toFile(outputPath);
+
+    console.log(`Generated date frame from template: ${template}`);
   }
+
+  console.log("Done");
 }
 
 main();
